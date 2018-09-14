@@ -1,0 +1,21 @@
+body {
+    text-align:center;
+    background-image:url("Image/wallaby.jpg");
+    background-repeat:repeat-y;
+}
+h1 {
+    color:green;
+   }
+u {
+    font-size:300%;
+}
+h3 {
+    color:darkgreen;
+}
+
+#vic{
+    color:red;
+}
+.go {
+    color: crimson;
+}

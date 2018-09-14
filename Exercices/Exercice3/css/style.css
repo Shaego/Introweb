@@ -1,0 +1,33 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font: 1.0em Arial, Helvetica, sans-serif
+}
+h1{
+    text-align: center;
+    border: 5px solid olivedrab;
+}
+.box {
+    float:left;
+    padding-left:10px;
+    max-width:210px;
+	border: 2px solid darkblue;
+	}
+.box2 {
+    float:right;
+    border: 2px solid red;
+    max-width: 750px;
+}
+
+.box3 {
+    float:right;
+    border: 2px solid darkblue;
+    padding: 50px 250px 50px 250px
+}
+
+.last {
+    clear: both;
+}
+
+
+
