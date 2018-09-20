@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<input lang="fr">
+<head>
+	<title>FORMULAIRE</title>
+	<meta  charset="UTF-8">
+	<meta name="title" content="Titre de la page">
+	<meta name="description" content="description de la page">
+	<meta name="author" content="prenon NOM">
+	<meta name="keywords" content="mots-clé1, mots-clé2, ...">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet " href ="CSS/Style.css"/>
+</head>
+<body>
+	<br class="form-style">
+		<div class="Entete">Entrez les informations du membre</div>
+		<form>
+		<class="form">
+			<label>Nom :</label> <input type="text" placeholder="Gérard" name="nom" required/>
+
+			<label>Prénom :</label> <input type="text" placeholder="Dupontel" name="prenom" required/>
+
+			<label>Adresse :</label> <input type="text" placeholder="999 rue" name="adresse" />
+
+			<label>Ville :</label> <input type="text" name="Ville" />
+
+			<label>Tel :</label> <input type="tel" placeholder="888-888-8888" name="num" required/>
+
+			<label>Date d'inscription :</label> <input type="date" name="datein" required/>
+
+			<label>Date de fin :</label> <input type="date" name="datafin" />
+
+			<label>Sexe :</label> <input type="radio" name="sexe" id="homme" value="1"><label for="homme">Homme</label>
+			                    <input type="radio" name="sexe" id="femme" value="2"><label for="femme">Femme</label>
+			                    <input type="radio" name="sexe" id="Apache" value="3"><label for="apache">Apache Helicopter</label>
+                                <input type="radio" name="sexe" id="Tracteur" value="4"><label for="tracteur">Tracteur</label>
+
+			<label>Choix de paiement :</label> <select name="choix"/>
+							<option value="produit1">VISA</option>
+							<option value="produit2">MasterCard</option>
+							<option value="produit3">Paypal</option>
+							<option value="produit4">Nature</option>
+							<option value="produit5">Gratuit pour vous</option>
+			</select>
+			<label>Carte de crédit :</label> <input type="text" placeholder="0000-0000-0000-0000" name="card" required/>
+
+			<label>Mot de Passe :</label> <input type="password" name="mdp" required/>
+
+			<label>Courriel:</label> <input type="email" placeholder="blabla@gmail.com" name="email""/>
+            <br/>
+            <br/>
+			<input class="send" type="submit" value="Envoyer"><input class="send" type="reset" value="Réinitialiser">
+        </form>
+		</div>
+</body>
+</html>
