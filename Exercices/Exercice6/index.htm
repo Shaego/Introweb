@@ -15,6 +15,7 @@
 		<div class="Entete">Entrez les informations du membre</div>
 		<div>
 		<class="form">
+			<fieldset>
 			<div><label>Nom :</label> <input type="text" placeholder="Gérard" name="nom" required/></div>
 
 			<div><label>Prénom :</label> <input type="text" placeholder="Dupontel" name="prenom" required/></div>
@@ -25,14 +26,13 @@
 
 			<div><label>Tel :</label> <input type="tel" placeholder="888-888-8888" name="num" required/></div>
 
-			<div><label>Date d'inscription :</label> <input type="date" name="datein" required/></div>
+			<div><label>Inscription :</label> <input type="date" name="datein" required/></div>
 
 			<div><label>Date de fin :</label> <input type="date" name="datafin" /></div>
 
-			<div><label>Sexe :</label> <input type="radio" name="sexe" id="homme" value="1"><label for="homme">Homme</label>
-			                    <input type="radio" name="sexe" id="femme" value="2"><label for="femme">Femme</label>
-			                    <input type="radio" name="sexe" id="Apache" value="3"><label for="apache">Apache Helicopter</label>
-				<input type="radio" name="sexe" id="Tracteur" value="4"><label for="tracteur">Tracteur</label></div>
+			<div><label>Sexe :</label> <input class="radio" type="radio" name="sexe" id="homme" value="1"><label for="homme">Homme</label>
+			                    <input class="radio" type="radio" name="sexe" id="femme" value="2"><label for="femme">Femme</label>
+								<input class="radio" type="radio" name="sexe" id="Tracteur" value="4"><label for="tracteur">Tracteur</label></div>
 
 			<div><label>Choix de paiement :</label> <select name="choix"/></div>
 							<option value="produit1">VISA</option>
@@ -48,6 +48,7 @@
 			<div><label>Courriel:</label> <input type="email" placeholder="blabla@gmail.com" name="email""/></div>
             <br/>
             <br/>
+			</fieldset>
 			<input class="send" type="submit" value="Envoyer"><input class="send" type="reset" value="Réinitialiser">
         </form>
 		</div>
