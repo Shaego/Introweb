@@ -3,8 +3,10 @@
 	width: 55%;  
 }
 
-
 header{
+	text-align: center;
+}
+.img {
 	text-align: center;
 }
 nav
@@ -12,7 +14,7 @@ nav
 	float:left;
 	width : 150px ;
 	border : 1px solid blue ;
-
+	margin-right:5%;
 
 }
 section
