@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e946c600-59dc-40dd-8c18-9a743ba10181" name="Default" comment="Lab Institut Membre Fini">
-      <change afterPath="$PROJECT_DIR$/Lab/Lab Institut/sondage.html" afterDir="false" />
+    <list default="true" id="e946c600-59dc-40dd-8c18-9a743ba10181" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice4/JS/traitement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice5/JS/traitement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice6/JS/traitement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice7/JS/traitement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercicesJs/Exercice7/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/Lab Institut/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/Lab Institut/CSS/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/Lab Institut/membre.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/Lab Institut/membres.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/Lab Institut/membres.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,29 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice3/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="traitement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice3/JS/traitement.js">
+        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice6/JS/traitement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice2/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+            <state relative-caret-position="153">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -91,6 +86,12 @@
         <option value="$PROJECT_DIR$/ExercicesJs/Exercice3/index.html" />
         <option value="$PROJECT_DIR$/ExercicesJs/Exercice3/JS/traitement.js" />
         <option value="$PROJECT_DIR$/ExercicesJs/Exercice2/index.html" />
+        <option value="$PROJECT_DIR$/ExercicesJs/Exercice4/index.html" />
+        <option value="$PROJECT_DIR$/ExercicesJs/Exercice4/JS/traitement.js" />
+        <option value="$PROJECT_DIR$/ExercicesJs/Exercice5/index.html" />
+        <option value="$PROJECT_DIR$/ExercicesJs/Exercice5/JS/traitement.js" />
+        <option value="$PROJECT_DIR$/ExercicesJs/Exercice6/index.html" />
+        <option value="$PROJECT_DIR$/ExercicesJs/Exercice6/JS/traitement.js" />
       </list>
     </option>
   </component>
@@ -116,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,44 +134,19 @@
               <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="introWeb" type="462c0819:PsiDirectoryNode" />
               <item name="ExercicesJs" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercice2" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercice6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="introWeb" type="462c0819:PsiDirectoryNode" />
               <item name="ExercicesJs" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercice3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="ExercicesJs" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercice3" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercice6" type="462c0819:PsiDirectoryNode" />
               <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab Institut" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab Institut" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +195,9 @@
       <workItem from="1538146148680" duration="673000" />
       <workItem from="1538333115761" duration="1691000" />
       <workItem from="1539949158564" duration="1029000" />
-      <workItem from="1539956127825" duration="107000" />
+      <workItem from="1539956127825" duration="674000" />
+      <workItem from="1539956904796" duration="2862000" />
+      <workItem from="1540383650189" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="premier site">
       <created>1535550751920</created>
@@ -367,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537973724154</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Exercice JS">
+      <created>1539956498382</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1539956498382</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33912000" />
+    <option name="totallyTimeSpent" value="37926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
@@ -446,47 +432,10 @@
     <MESSAGE value="Exercice 6 progression" />
     <MESSAGE value="Lab Institut Membre" />
     <MESSAGE value="Lab Institut Membre Fini" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab Institut Membre Fini" />
+    <MESSAGE value="Exercice JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice JS" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Exercices/Exercice6/CSS/Style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercices/Exercice5v2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercices/Exercice5v3/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercices/Exercice5v3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercices/Exercice3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercices/Exercice4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercices/Exercice3/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -723,6 +672,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice4/JS/traitement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice5/JS/traitement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice6/JS/traitement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercice6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
