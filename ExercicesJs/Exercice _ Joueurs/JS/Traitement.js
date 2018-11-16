@@ -4,13 +4,14 @@ var txtNom, txtPoints, tabNomJoueurs, tabNbrPoints, compt=0;
 tabNomJoueurs = new Array(4);
 tabNbrPoints = new Array(4);
 
-Total = 0;
+
 
 
 function btnAjouter_onclick()
 {
     txtNom = document.getElementById("txtNom").value;
     txtPoints = parseInt(document.getElementById("txtPoints").value);
+    document.getElementById("lblNbreJoueur").innerHTML=" Numéro du joueur " + compt;
 
     tabNomJoueurs[compt] = txtNom;
     parseInt(tabNbrPoints[compt] = txtPoints);
@@ -28,55 +29,64 @@ function btnAjouter_onclick()
 function btnTrouverMoy_onclick()
 {
     var moy=0;
+    moy = calculerMoy(moy);
+    document.getElementById("lblReponse").innerHTML="la moyenne est "+moy;
 
-   for (i =0; i < tabNbrPoints.length; i++)
-   {
-       moy += tabNbrPoints[i];
-   }
-   moy = moy/tabNbrPoints.length;
-   alert("La moyenne est de " +moy);
 }
+
 
 function btnTrouverMeilleur_onclick()
 {
-    var meilleurJ;
-
-    if (tabNbrPoints[0] >= tabNbrPoints [1] && tabNbrPoints[0] >= tabNbrPoints [2] && tabNbrPoints[0] >= tabNbrPoints [3])
-    {
-        alert("Le meilleur joueur est " +tabNomJoueurs[0]);
-    }
-    else if (tabNbrPoints[1] >= tabNbrPoints [0] && tabNbrPoints[1] >= tabNbrPoints [2] && tabNbrPoints[1] >= tabNbrPoints [3])
-    {
-        alert("Le meilleur joueur est " +tabNomJoueurs[1]);
-    }
-    else if (tabNbrPoints[2] >= tabNbrPoints [0] && tabNbrPoints[2] >= tabNbrPoints [1] && tabNbrPoints[2] >= tabNbrPoints [3])
-    {
-        alert("Le meilleur joueur est " +tabNomJoueurs[2]);
-    }
-    else if (tabNbrPoints[3] >= tabNbrPoints [0] && tabNbrPoints[3] >= tabNbrPoints [2] && tabNbrPoints[3] >= tabNbrPoints [2])
-    {
-        alert("Le meilleur joueur est " +tabNomJoueurs[3]);
-    }
+    var meilleurJ=0;
+    meilleurJ = trouverMeilleurJ(meilleurJ);
+    document.getElementById("lblReponse").innerHTML="le meilleur joueur est "+meilleurJ;
 }
 
 function btnTrouverPire_onclick()
 {
-    var pireJ;
+    var pireJ=0;
+    pireJ = trouverPireJ(pireJ);
+    document.getElementById("lblReponse").innerHTML="le pire joueur est "+pireJ;
+}
 
-    if (tabNbrPoints[0] <= tabNbrPoints [1] && tabNbrPoints[0] <= tabNbrPoints [2] && tabNbrPoints[0] <= tabNbrPoints [3])
+function calculerMoy(moy)
+{
+    for (i =0; i < tabNbrPoints.length; i++)
     {
-        alert("Le pire joueur est " +tabNomJoueurs[0]);
+        moy += tabNbrPoints[i];
     }
-    else if (tabNbrPoints[1] <= tabNbrPoints [0] && tabNbrPoints[1] <= tabNbrPoints [2] && tabNbrPoints[1] <= tabNbrPoints [3])
+    moy = moy/tabNbrPoints.length;
+
+    return moy;
+
+}
+
+function trouverMeilleurJ(meilleurJ)
+{
+
+
+    for (i =0; i < tabNbrPoints.length; i++)
     {
-        alert("Le pire joueur est " +tabNomJoueurs[1]);
+        if (meilleurJ < tabNbrPoints [i])
+        {
+            meilleurJ = tabNbrPoints[i];
+        }
+
     }
-    else if (tabNbrPoints[2] <= tabNbrPoints [0] && tabNbrPoints[2] <= tabNbrPoints [1] && tabNbrPoints[2] <= tabNbrPoints [3])
+    return meilleurJ;
+}
+
+function trouverPireJ(pireJ)
+{
+
+
+    for (i =0; i < tabNbrPoints.length; i++)
     {
-        alert("Le pire joueur est " +tabNomJoueurs[2]);
+        if (pireJ > tabNbrPoints [i])
+        {
+            pireJ = tabNbrPoints[i];
+        }
+
     }
-    else if (tabNbrPoints[3] <= tabNbrPoints [0] && tabNbrPoints[3] <= tabNbrPoints [2] && tabNbrPoints[3] <= tabNbrPoints [2])
-    {
-        alert("Le pire joueur est " +tabNomJoueurs[3]);
-    }
+    return pireJ;
 }

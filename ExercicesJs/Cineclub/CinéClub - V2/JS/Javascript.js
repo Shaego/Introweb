@@ -25,6 +25,12 @@ function trouverAge()
     }
 }
 
+function lstFilm_onchange()
+{ var film, image;
+   film = document.getElementById("lstFilm").value;
+
+   image = document.getElementById("imgFilm").src="img/"+film+".jpg";
+}
 
 function btnCalculer_onclick()
 {
