@@ -2,102 +2,110 @@
 function btnCalculer_onclick()
 {
 
-    var Nbre1,Nbre2,Operateur;
 
     if (valideChampsObligatoires()===true)
     {
-        if(valideFormat()===true){
+        if(valideFormat()===true)
+        {
             Saisir();
         }
+    }
 
+
+}
+
+function valideChampsObligatoires()
+{
+    var Valide = true, tabCalcul = new Array("txtNbre1","txtNbre2","txtOperateur");
+
+
+    for(i=0;i<tabCalcul.length;i++)
+    {
+        if(valideExiste(tabCalcul[i])!==false)
+        {
+            Valide=true;
+        }
 
     }
 
+
+    return Valide;
 }
-function Calculer(Nbr1,Nbr2,Operateur)
+function Calculer(Nombre1,Nombre2,Operateurs)
 {
 
     var Resultat=0;
 
-    switch(Operateur)
+    switch(Operateurs)
     {
-        case "+":
-            Resultat=Nbr1+Nbr2;
+        case "+": Resultat=Nombre1+Nombre2;
             break;
-        case "-":
-            Resultat=Nbr1-Nbr2;
+
+        case "-": Resultat=Nombre1-Nombre2;
             break;
-        case "*":
-            Resultat=Nbr1*Nbr2;
+
+        case "*": Resultat=Nombre1*Nombre2;
             break;
-        case"/":
-            Resultat=Nbr1/Nbr2;
+
+        case"/":  Resultat=Nombre1/Nombre2;
             break;
     }
+
     return Resultat;
 }
 function Saisir()
 {
-    var Nbre1,Nbre2,Operateur,Resultat;
+    var Nombre1,Nombre2,Operateurs,Resultat;
 
-    Nbre1=parseInt(document.getElementById("txtNbre1").value);
-    Nbre2=parseInt(document.getElementById("txtNbre2").value);
-    Operateur=document.getElementById("txtOperateur").value;
-    Resultat=Calculer(Nbre1,Nbre2,Operateur);
-    document.getElementById("lblMessage").innerHTML=Resultat;
+    Nombre1 = parseInt(document.getElementById("txtNbre1").value);
+    Nombre2 = parseInt(document.getElementById("txtNbre2").value);
+    Operateurs = document.getElementById("txtOperateur").value;
+    Resultat = Calculer(Nombre1,Nombre2,Operateurs);
+    document.getElementById("lblMessage").innerHTML="Le résultat est " + Resultat;
 
 }
-function valideChampsObligatoires()
-{
-    var Valide=true,tabCalcul=new Array("txtNbre1","txtNbre2","txtOperateur");
 
-
-    for(i=0;i<tabCalcul.length;i++){
-        if(valideExiste(tabCalcul[i])!==false){
-            Valide=true;
-        }
-    }
-
-
-    return Valide;
-}
 
 function valideFormat()
 {
-    var Valide=true,tabCalcul=new Array("txtNbre1","txtNbre2","txtOperateur");
+    var Validation = true ,tabCalcul = new Array("txtNbre1","txtNbre2","txtOperateur");
 
 
-    if (ValideChaine(tabCalcul[0])===false){
-        Valide=false;
-        document.getElementById(tabCalcul[0]).style.backgroundColor="red";
+    if (ValideChaine(tabCalcul[0]) == false)
+    {
+        Validation = false;
+        document.getElementById(tabCalcul[0]).style.backgroundColor="firebrick";
     }
 
-    if (ValideChaine(tabCalcul[1])===false){
-        Valide=false;
-        document.getElementById(tabCalcul[1]).style.backgroundColor="red";
+    if (ValideChaine(tabCalcul[1]) == false)
+    {
+        Validation = false;
+        document.getElementById(tabCalcul[1]).style.backgroundColor="firebrick";
     }
 
-    if (ValideOP(tabCalcul[2])===false){
-        Valide=false;
-        document.getElementById(tabCalcul[2]).style.backgroundColor="red";
+    if (ValideOP(tabCalcul[2]) == false)
+    {
+        Validation = false;
+        document.getElementById(tabCalcul[2]).style.backgroundColor="firebrick";
     }
 
-    return Valide;
+    return Validation;
 }
 
 function valideExiste(Case)
 {
-    var Valide=false;
+    var Validation=false;
     if(document.getElementById(Case).value==="")
     {
-        Valide=false;
-        document.getElementById(Case).style.backgroundColor="red";
+        Validation=false;
+        document.getElementById(Case).style.backgroundColor="pink";
     }
-    else{
-        Valide=true;
+    else
+    {
+        Validation=true;
         document.getElementById(Case).style.backgroundColor="white";
     }
-    return Valide;
+    return Validation;
 }
 
 function ValideChaine(Chaine)

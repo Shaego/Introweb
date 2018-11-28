@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e946c600-59dc-40dd-8c18-9a743ba10181" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicesJs/Exercices  - Choisir Parmi/CalcV2/JS/calculatriceV2.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExercicesJs/Exercices  - Choisir Parmi/CalcV2/JS/calculatriceV2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Exercices expressions régulières- Etu.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices expressions régulières- Etu/Exercices expressions régulières- Etu.htm">
+      <file leaf-file-name="CalculatriceV2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices  - Choisir Parmi/CalcV2/CalculatriceV2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traitement.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices expressions régulières- Etu/JS/traitement.js">
+      <file leaf-file-name="calculatriceV2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices  - Choisir Parmi/CalcV2/JS/calculatriceV2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+            <state relative-caret-position="459">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -50,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Exercices/Exercice5v2/css/style.css" />
         <option value="$PROJECT_DIR$/Exercices/Exercice5v3/css/style.css" />
         <option value="$PROJECT_DIR$/Exercices/Exercice5v3/index.html" />
         <option value="$PROJECT_DIR$/Exercices/Exercice6/CSS/Style.css" />
@@ -101,6 +100,7 @@
         <option value="$PROJECT_DIR$/ExercicesJs/Cineclub/CinéClub - V2/JS/Javascript.js" />
         <option value="$PROJECT_DIR$/ExercicesJs/Exercice _ Joueurs/JS/traitement.js" />
         <option value="$PROJECT_DIR$/ExercicesJs/Exercices expressions régulières- Etu/JS/traitement.js" />
+        <option value="$PROJECT_DIR$/ExercicesJs/Exercices  - Choisir Parmi/CalcV2/JS/calculatriceV2.js" />
       </list>
     </option>
   </component>
@@ -137,12 +137,6 @@
               <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="introWeb" type="462c0819:PsiDirectoryNode" />
               <item name="ExercicesJs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="ExercicesJs" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercices  - Choisir Parmi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +213,7 @@
       <workItem from="1542121997852" duration="313000" />
       <workItem from="1542201673747" duration="6346000" />
       <workItem from="1542377875818" duration="2221000" />
-      <workItem from="1543412390257" duration="5059000" />
+      <workItem from="1543412390257" duration="7027000" />
     </task>
     <task id="LOCAL-00001" summary="premier site">
       <created>1535550751920</created>
@@ -431,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542380071789</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="RegEx bases et CalcV2 en cours">
+      <created>1543418024943</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1543418024943</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84604000" />
+    <option name="totallyTimeSpent" value="86572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
@@ -492,7 +493,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="premiere page terminée" />
     <MESSAGE value="premiere page ok ++" />
     <MESSAGE value="premiere page ok mega ++" />
     <MESSAGE value="premiere page ok +" />
@@ -517,7 +517,8 @@
     <MESSAGE value="Exercice JS Garderie &amp; Fonction" />
     <MESSAGE value="Exercice JS Joeurs &amp; CIneclub Fonction" />
     <MESSAGE value="Exercice JS Joeurs fonction et parametres" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice JS Joeurs fonction et parametres" />
+    <MESSAGE value="RegEx bases et CalcV2 en cours" />
+    <option name="LAST_COMMIT_MESSAGE" value="RegEx bases et CalcV2 en cours" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -525,14 +526,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab/Lab Institut/membre.html" />
-    <entry file="file://$PROJECT_DIR$/Lab/Lab Institut/membres.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab/Lab Institut/sondage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -831,14 +824,28 @@
     <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices expressions régulières- Etu/Exercices expressions régulières- Etu.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices expressions régulières- Etu/JS/traitement.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="139" selection-start-line="18" selection-start-column="139" selection-end-line="18" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices  - Choisir Parmi/CalcV2/CalculatriceV2.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesJs/Exercices  - Choisir Parmi/CalcV2/JS/calculatriceV2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
