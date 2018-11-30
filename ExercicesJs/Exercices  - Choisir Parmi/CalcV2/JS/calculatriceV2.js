@@ -110,7 +110,7 @@ function valideExiste(Case)
 
 function ValideChaine(Chaine)
 {
-    return /^[0-9][0-9]*$/.test(document.getElementById(Chaine).value);
+    return /^[A-é]\+$/.test(document.getElementById(Chaine).value);
 }
 
 function ValideOP(Chaine)
