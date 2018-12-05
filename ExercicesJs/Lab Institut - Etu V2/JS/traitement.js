@@ -1,4 +1,4 @@
-function frmMembre_onclick()
+function frmMembre_onsubmit()
 {
 
     if (valideChampsObligatoires()===true)
@@ -70,11 +70,21 @@ function valideFormat()
         Validation = false;
         document.getElementById(tabInscript[0]).style.borderColor="firebrick";
     }
+    else if (ValideNom(tabInscript[0]) === true)
+    {
+        Validation = true;
+        document.getElementById(tabInscript[0]).style.borderColor="white";
+    }
 
     if (ValideNom(tabInscript[1]) === false)
     {
         Validation = false;
         document.getElementById(tabInscript[1]).style.borderColor="firebrick";
+    }
+    else if (ValideNom(tabInscript[1]) === true)
+    {
+        Validation = true;
+        document.getElementById(tabInscript[1]).style.borderColor="white";
     }
 
     if (ValideNom(tabInscript[2]) === false)
@@ -82,11 +92,23 @@ function valideFormat()
         Validation = false;
         document.getElementById(tabInscript[2]).style.borderColor="firebrick";
     }
+    else if (ValideNom(tabInscript[2]) === true)
+    {
+        Validation = true;
+        document.getElementById(tabInscript[2]).style.borderColor="white";
+    }
     if (ValideTel(tabInscript[3]) === false)
     {
         Validation = false;
         document.getElementById(tabInscript[3]).style.borderColor="firebrick";
     }
+    else if (ValideTel(tabInscript[3]) === true)
+    {
+        Validation = true;
+        document.getElementById(tabInscript[3]).style.borderColor="white";
+    }
+
+
 
 
     return Validation;
@@ -94,7 +116,7 @@ function valideFormat()
 
 function ValideNom(Chaine)
 {
-    return /^[A-é]*\-?[A-é]*?$/.test(document.getElementById(Chaine).value);
+    return /^[A-é]+\-?[A-é]*?$/.test(document.getElementById(Chaine).value);
 }
 function ValideTel(Chaine)
 {
