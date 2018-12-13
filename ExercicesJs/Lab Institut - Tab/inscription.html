@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>laboratoire</title>
+<meta charset="UTF-8">
+<meta name="description" content="laboratoire Institut des sciences de la mer de Rimousky">
+<meta name="author" content="Lucie Fortin">
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+	<!--Main-->
+	<main>
+		<!--header-->
+		<header>
+		<!--nav_mu-->
+		<div id="bloc_logo">
+			<img src="img/logo.png" width="256" height="56" alt="logo de institut"></div>
+		<div id="nav_mu">
+			<ul><li><a href="#" target="_blank">| Jeux</a></li><li><a href="#" target="_blank">| Sondage</a></li><li><a href="index.html" target="_blank">| Nous joindre</a></li></ul>
+		</div>
+		<!--Fin nav_mu-->
+		</header>
+		<!--fin Header-->
+		
+		<!--container-->
+		<container>
+		<!--aside-->
+		<aside>
+			<img class="img_aside_float" src="img/aside.jpg" height="222" width="211" alt="poisson dans le aside">
+			<img class="img_aside_float" src="img/pour_nous_joindre.png" height="261" width="45" alt="indication pour nous joindre dans le aside">	
+		</aside>
+		<!--fin aside-->
+		<!--section-->
+		<section>
+			<!--Nav-->
+			<nav>
+			<ul><li><a href="#" target="_blank">Accueil</a></li><li><a href="#" target="_blank">| Formation</a></li><li><a href="#" target="_blank">| Membres</a></li><li><a href="#" target="_blank">| Services</a></li></ul>
+			</nav>
+			<!--fin Nav-->
+			<h1>Entrez les informations du membre</h1>
+			<!--boîte de texte-->
+			<form method="get" id="frmMembre" action="Reponse.htm" onsubmit="return confirm('voulez-vous envoyer ces données?')" onreset="return confirm('voulez-vous effacer ces données?')">
+			<label id="lblMessageErreur"></label>
+			<div><label>Nom<span>*</span></label><input type="text" id="txtNom" name="txtNom"  size="40" ></div>
+			<div><label>Prénom<span>*</span></label><input type="text" id="txtPrenom" name="txtPrenom" size="40"></div>
+			<div><label>Adresse</label><input type="text" id="txtAdresse" name="txtAdresse" size="40" ></div>
+			<div><label>Ville<span>*</span></label><input type="text" id="txtVille" name="txtVille" size="40" ></div>
+			<div><label>Code postal</label><input type="text" id="txtCodePostal" name="txtCodePostal" size="15" ></div>
+			<div><label >Téléphone<span>*</span></label><input type="text" id="txtTel" name="txtTel" size="13" class="obligatoire" value=""></div>
+			<div><label>Code permanent</label><input type="text" id="txtCodePerm" name="txtCodePerm" size="12" ></div>
+			<label for="type">Catégorie</label><select id="type" name="type">
+				<option value="adulte" selected>adulte</option>
+				<option value="étudiant">étudiant</option>
+				<option value="retraité">retraité</option>
+			</select>
+			<div id="Boutons"><input class="bouton" value="Envoyer" id="btnEnvoyer" type="submit"/>   <input class="bouton" type="reset" value="Réintialiser"/></div>
+			<div id="ButAdd"><input class="bouton" value="Add" id="btnAdd" type="button"onclick="btnAdd_onclick()" />
+			<lablel id="ButJeune"><input class="bouton" value="PlusJeune" id="btnJeune" type="button"onclick="btnFindYounger_onclick()" />
+			<div id="ButRecherche"><input class="bouton" value="Recherche" id="btnSearch" type="button"onclick="btnLookFor_onclick()" />
+            </form>
+
+
+			<!--ligne de séparation-->
+			<hr>
+		</section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EAhCKoVxDZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2644.862155403097!2d-68.51315494833038!3d48.478357579150284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41096c3cb70e1f69%3A0x5bf16c80c5f946ac!2sMarina+de+Rimouski!5e0!3m2!1sfr!2sca!4v1544712921388" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<!--fin section-->
+		</container>
+		<!--fin container-->
+		<!--footer-->
+		<footer>
+			<ul><li><a href="#" target="_blank">Accueil</a></li><li><a href="#" target="_blank">| Formation</a></li><li><a href="#" target="_blank">| Membres</a></li><li><a href="#" target="_blank">| Services</a></li></ul>
+
+			<p>&copy 2018 <b>Institut des sciences de la mer de Rimousky.</b> Tous droits réservés.</p> 
+			<p>Ce site est optimisé pour 1200x1080px</p>
+		</footer>
+		<!--fin footer-->
+	</main>
+	<!--fin Main-->
+<script src="JS/traitement.js"></script>
+</body>
+</html>
